@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+li {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 10px;
+}
+
+button {
+  border: 2px solid #3498db;
+  padding: 10px 36px;
+  font-size: 2em;
+  color: #3498db;
+  background-color: white;
+  outline: 0;
+  transition: background-color 0.3s ease;
+  font-family: inherit;
+  border-radius: 6px;
+}
+
+button:hover {
+  background-color: #3498db;
+  color: white;
+}
+
+button[disabled] {
+  border: 2px solid #cecece;
+  background-color: #e0e0e0;
+  color: #cecece;
+  cursor: not-allowed;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.saved-item-container,
+.response-item-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  margin-bottom: 10px;
+}
+
+.saved-item-list,
+.response-info-panels {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0;
+  padding: 0 20px;
+}
+
+.response-item-image {
+  height: 450px;
+  border-radius: 10px;
+}
+
+.response-info-panel-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.next-button,
+.like-button {
+  width: 180px;
+}
+
+.like-button {
+  margin-right: 56px;
+}
+
+.animal-info {
+  text-align: left;
+}
+
+.saved-item-image {
+  height: 200px;
+  width: 186px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.saved-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.saved-list-item button {
+  border: 2px solid #db3434;
+  padding: 2px 14px;
+  font-size: 1.5em;
+  color: #db3434;
+}
+
+.saved-list-item button:hover {
+  background-color: #db3434;
+  color: white;
+}
+
+.error-message {
+  margin-top: 40px;
+  color: red;
+  font-size: 2em;
+}
