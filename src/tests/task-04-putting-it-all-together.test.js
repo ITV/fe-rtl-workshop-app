@@ -4,9 +4,9 @@ import App from "../App";
 const mockData = {
   data: {
     id: "0",
-    name: "The animal's name",
-    image_link: "//image-url",
-    latin_name: "An original latin name",
+    name: "Llama",
+    image_link: "https://upload.wikimedia.org/wikipedia/commons/c/cd/Black_Llama.jpg",
+    latin_name: "Lama glama",
   },
 };
 

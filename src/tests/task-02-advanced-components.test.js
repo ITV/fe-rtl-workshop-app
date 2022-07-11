@@ -4,12 +4,12 @@ import { LikesContext } from "../contexts/Likes";
 
 const mockLikesWithItems = {
   one: {
-    name: "test-name-1",
-    image_link: "test-image-link",
+    name: "Llama",
+    image_link: "https://upload.wikimedia.org/wikipedia/commons/c/cd/Black_Llama.jpg",
   },
   two: {
-    name: "test-name-2",
-    image_link: "test-image-link",
+    name: "Ring-tailed Lemur",
+    image_link: "https://upload.wikimedia.org/wikipedia/commons/0/0b/Ring-tailed_lemur_%28Lemur_catta%29.jpg",
   },
 };
 
