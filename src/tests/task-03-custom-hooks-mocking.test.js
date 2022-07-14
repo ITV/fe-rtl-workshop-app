@@ -11,9 +11,9 @@ const mockData = {
 describe("given useFetchNext hook", () => {
   it("should fetch data from provided URL", () => {});
 
-  describe("when the fetchNext function is called", () => {});
-
   describe("when the API returns an error", () => {
     it("should handle error properly", () => {});
   });
+
+  describe("when the fetchNext function is called", () => {});
 });
