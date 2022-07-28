@@ -15,5 +15,7 @@ describe("given useFetchNext hook", () => {
     it("should handle error properly", () => {});
   });
 
-  describe("when the fetchNext function is called", () => {});
+  describe("when the fetchNext function is called", () => {
+    it("should re-fetch data from provided URL", () => {});
+  });
 });
