@@ -1,0 +1,227 @@
+[
+  {
+    "id": 0,
+    "name": "Lion",
+    "image_link": "images/lion.jpg",
+    "latin_name": "Panthera leo",
+    "animal_type": "Mammal",
+    "active_time": "Diurnal",
+    "habitat": "Grasslands"
+  },
+  {
+    "id": 1,
+    "name": "Elephant",
+    "image_link": "images/elephant.jpg",
+    "latin_name": "Loxodonta africana",
+    "animal_type": "Mammal",
+    "active_time": "Diurnal",
+    "habitat": "Savannah"
+  },
+  {
+    "id": 2,
+    "name": "Giraffe",
+    "image_link": "images/giraffe.jpg",
+    "latin_name": "Giraffa camelopardalis",
+    "animal_type": "Mammal",
+    "active_time": "Diurnal",
+    "habitat": "Savannah"
+  },
+  {
+    "id": 3,
+    "name": "Tiger",
+    "image_link": "images/tiger.jpg",
+    "latin_name": "Panthera tigris",
+    "animal_type": "Mammal",
+    "active_time": "Nocturnal",
+    "habitat": "Forest"
+  },
+  {
+    "id": 4,
+    "name": "Zebra",
+    "image_link": "images/zebra.jpg",
+    "latin_name": "Equus zebra",
+    "animal_type": "Mammal",
+    "active_time": "Diurnal",
+    "habitat": "Grasslands"
+  },
+  {
+    "id": 5,
+    "name": "Gorilla",
+    "image_link": "images/gorilla.jpg",
+    "latin_name": "Gorilla beringei",
+    "animal_type": "Mammal",
+    "active_time": "Diurnal",
+    "habitat": "Forest"
+  },
+  {
+    "id": 6,
+    "name": "Panda",
+    "image_link": "images/panda.jpg",
+    "latin_name": "Ailuropoda melanoleuca",
+    "animal_type": "Mammal",
+    "active_time": "Nocturnal",
+    "habitat": "Bamboo forests"
+  },
+  {
+    "id": 7,
+    "name": "Kangaroo",
+    "image_link": "images/kangaroo.jpg",
+    "latin_name": "Macropus rufus",
+    "animal_type": "Mammal",
+    "active_time": "Crepuscular",
+    "habitat": "Grasslands"
+  },
+  {
+    "id": 8,
+    "name": "Polar Bear",
+    "image_link": "images/polar-bear.jpg",
+    "latin_name": "Ursus maritimus",
+    "animal_type": "Mammal",
+    "active_time": "Crepuscular",
+    "habitat": "Arctic"
+  },
+  {
+    "id": 9,
+    "name": "Koala",
+    "image_link": "images/koala.jpg",
+    "latin_name": "Phascolarctos cinereus",
+    "animal_type": "Mammal",
+    "active_time": "Nocturnal",
+    "habitat": "Eucalyptus forests"
+  },
+  {
+    "id": 10,
+    "name": "Hippopotamus",
+    "image_link": "images/hippopotamus.jpg",
+    "latin_name": "Hippopotamus amphibius",
+    "animal_type": "Mammal",
+    "active_time": "Nocturnal",
+    "habitat": "Rivers"
+  },
+  {
+    "id": 11,
+    "name": "Crocodile",
+    "image_link": "images/crocodile.jpg",
+    "latin_name": "Crocodylus niloticus",
+    "animal_type": "Reptile",
+    "active_time": "Nocturnal",
+    "habitat": "Rivers"
+  },
+  {
+    "id": 12,
+    "name": "Penguin",
+    "image_link": "images/penguin.jpg",
+    "latin_name": "Aptenodytes forsteri",
+    "animal_type": "Bird",
+    "active_time": "Diurnal",
+    "habitat": "Antarctic"
+  },
+  {
+    "id": 13,
+    "name": "Ostrich",
+    "image_link": "images/ostrich.jpg",
+    "latin_name": "Struthio camelus",
+    "animal_type": "Bird",
+    "active_time": "Diurnal",
+    "habitat": "Savannah"
+  },
+  {
+    "id": 14,
+    "name": "Wolf",
+    "image_link": "images/wolf.jpg",
+    "latin_name": "Canis lupus",
+    "animal_type": "Mammal",
+    "active_time": "Nocturnal",
+    "habitat": "Forest"
+  },
+  {
+    "id": 15,
+    "name": "Cheetah",
+    "image_link": "images/cheetah.jpg",
+    "latin_name": "Acinonyx jubatus",
+    "animal_type": "Mammal",
+    "active_time": "Diurnal",
+    "habitat": "Savannah"
+  },
+  {
+    "id": 16,
+    "name": "Horse",
+    "image_link": "images/horse.jpg",
+    "latin_name": "Equus ferus caballus",
+    "animal_type": "Mammal",
+    "active_time": "Diurnal",
+    "habitat": "Grasslands"
+  },
+  {
+    "id": 17,
+    "name": "Camel",
+    "image_link": "images/camel.jpg",
+    "latin_name": "Camelus dromedarius",
+    "animal_type": "Mammal",
+    "active_time": "Diurnal",
+    "habitat": "Desert"
+  },
+  {
+    "id": 18,
+    "name": "Rhino",
+    "image_link": "images/rhino.jpg",
+    "latin_name": "Rhinoceros unicornis",
+    "animal_type": "Mammal",
+    "active_time": "Nocturnal",
+    "habitat": "Grasslands"
+  },
+  {
+    "id": 19,
+    "name": "Eagle",
+    "image_link": "images/eagle.jpg",
+    "latin_name": "Aquila chrysaetos",
+    "animal_type": "Bird",
+    "active_time": "Diurnal",
+    "habitat": "Mountains"
+  },
+  {
+    "id": 20,
+    "name": "Bison",
+    "image_link": "images/bison.jpg",
+    "latin_name": "Bison bison",
+    "animal_type": "Mammal",
+    "active_time": "Diurnal",
+    "habitat": "Grasslands"
+  },
+  {
+    "id": 21,
+    "name": "Jaguar",
+    "image_link": "images/jaguar.jpg",
+    "latin_name": "Panthera onca",
+    "animal_type": "Mammal",
+    "active_time": "Nocturnal",
+    "habitat": "Rainforest"
+  },
+  {
+    "id": 22,
+    "name": "Gibbon",
+    "image_link": "images/gibbon.jpg",
+    "latin_name": "Hylobates lar",
+    "animal_type": "Mammal",
+    "active_time": "Diurnal",
+    "habitat": "Forest"
+  },
+  {
+    "id": 23,
+    "name": "Sloth",
+    "image_link": "images/sloth.jpg",
+    "latin_name": "Bradypus variegatus",
+    "animal_type": "Mammal",
+    "active_time": "Nocturnal",
+    "habitat": "Rainforest"
+  },
+  {
+    "id": 24,
+    "name": "Pangolin",
+    "image_link": "images/pangolin.jpg",
+    "latin_name": "Manis pentadactyla",
+    "animal_type": "Mammal",
+    "active_time": "Nocturnal",
+    "habitat": "Forest"
+  }
+]

@@ -5,23 +5,25 @@ import InfoTile from "./InfoTile";
 const AnimalInfo = () => {
   const { likeItem } = useLikes();
   const { isError, response, fetchNext } = useFetchNext(
-    "https://zoo-animal-api.herokuapp.com/animals/rand"
+    "/api/random-animal"
   );
+
+  const animal = response?.[0];
 
   return (
     <>
       <h1>
         <span aria-hidden>🐘</span> Animals <span aria-hidden>🦒</span>
       </h1>
-      <div className="response-item-container">
+      <div className="animal-item-container">
         {isError && <div className="error-message">Something went wrong</div>}
-        {response && !isError && (
+        {animal && !isError && (
           <>
-            <InfoTile {...response} />
+            <InfoTile {...animal} />
             <div className="button-container">
               <button
                 className="like-button"
-                onClick={() => likeItem(response)}
+                onClick={() => likeItem(animal)}
               >
                 <span role="img" aria-label="like">
                   👍
