@@ -45,7 +45,7 @@ button[disabled] {
 }
 
 .saved-item-container,
-.response-item-container {
+.animal-item-container {
   position: relative;
   display: flex;
   align-items: center;
@@ -70,6 +70,8 @@ button[disabled] {
 
 .response-item-image {
   height: 450px;
+  width: 450px;
+  object-fit: cover;
   border-radius: 10px;
 }
 
@@ -101,7 +103,7 @@ button[disabled] {
 
 .saved-item-image {
   height: 200px;
-  width: 186px;
+  width: 200px;
   object-fit: cover;
   border-radius: 8px;
 }

@@ -1,0 +1,82 @@
+[
+    {
+      "name": "Lion",
+      "image_link": "https://example.com/lion.jpg",
+      "latin_name": "Panthera leo",
+      "animal_type": "Mammal",
+      "active_time": "Diurnal",
+      "habitat": "Grasslands"
+    },
+    {
+      "name": "Elephant",
+      "image_link": "https://example.com/elephant.jpg",
+      "latin_name": "Loxodonta africana",
+      "animal_type": "Mammal",
+      "active_time": "Diurnal",
+      "habitat": "Savannah"
+    },
+    {
+      "name": "Giraffe",
+      "image_link": "https://example.com/giraffe.jpg",
+      "latin_name": "Giraffa camelopardalis",
+      "animal_type": "Mammal",
+      "active_time": "Diurnal",
+      "habitat": "Savannah"
+    },
+    {
+      "name": "Tiger",
+      "image_link": "https://example.com/tiger.jpg",
+      "latin_name": "Panthera tigris",
+      "animal_type": "Mammal",
+      "active_time": "Nocturnal",
+      "habitat": "Forest"
+    },
+    {
+      "name": "Zebra",
+      "image_link": "https://example.com/zebra.jpg",
+      "latin_name": "Equus zebra",
+      "animal_type": "Mammal",
+      "active_time": "Diurnal",
+      "habitat": "Grasslands"
+    },
+    {
+      "name": "Gorilla",
+      "image_link": "https://example.com/gorilla.jpg",
+      "latin_name": "Gorilla beringei",
+      "animal_type": "Mammal",
+      "active_time": "Diurnal",
+      "habitat": "Forest"
+    },
+    {
+      "name": "Panda",
+      "image_link": "https://example.com/panda.jpg",
+      "latin_name": "Ailuropoda melanoleuca",
+      "animal_type": "Mammal",
+      "active_time": "Nocturnal",
+      "habitat": "Bamboo forests"
+    },
+    {
+      "name": "Kangaroo",
+      "image_link": "https://example.com/kangaroo.jpg",
+      "latin_name": "Macropus rufus",
+      "animal_type": "Mammal",
+      "active_time": "Crepuscular",
+      "habitat": "Grasslands"
+    },
+    {
+      "name": "Polar Bear",
+      "image_link": "https://example.com/polar-bear.jpg",
+      "latin_name": "Ursus maritimus",
+      "animal_type": "Mammal",
+      "active_time": "Crepuscular",
+      "habitat": "Arctic"
+    },
+    {
+      "name": "Koala",
+      "image_link": "https://example.com/koala.jpg",
+      "latin_name": "Phascolarctos cinereus",
+      "animal_type": "Mammal",
+      "active_time": "Nocturnal",
+      "habitat": "Eucalyptus forests"
+    }
+  ]

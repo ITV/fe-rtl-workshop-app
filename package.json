@@ -1,46 +1,20 @@
 {
   "name": "workshop",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.1",
-    "@testing-library/react": "^12.1.2",
-    "@testing-library/user-event": "^13.5.0",
-    "@testing-library/react-hooks": "^7.0.2",
-    "axios": "^0.25.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0",
-    "web-vitals": "^2.1.2"
+    "@workshop/client": "workspace:client",
+    "express": "4.19.2"
   },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "node server/index.js",
+    "build": "pnpm --filter @workshop/client build",
+    "test": "pnpm --filter @workshop/client test"
   },
   "engines": {
     "node": ">=20.11",
     "npm": ">=8.0.0",
     "pnpm": ">=8.0.0"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   }
 }

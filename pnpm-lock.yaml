@@ -4,34 +4,46 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-dependencies:
-  '@testing-library/jest-dom':
-    specifier: ^5.16.1
-    version: 5.17.0
-  '@testing-library/react':
-    specifier: ^12.1.2
-    version: 12.1.5(react-dom@17.0.2)(react@17.0.2)
-  '@testing-library/react-hooks':
-    specifier: ^7.0.2
-    version: 7.0.2(react-dom@17.0.2)(react@17.0.2)
-  '@testing-library/user-event':
-    specifier: ^13.5.0
-    version: 13.5.0(@testing-library/dom@10.0.0)
-  axios:
-    specifier: ^0.25.0
-    version: 0.25.0
-  react:
-    specifier: ^17.0.2
-    version: 17.0.2
-  react-dom:
-    specifier: ^17.0.2
-    version: 17.0.2(react@17.0.2)
-  react-scripts:
-    specifier: 5.0.0
-    version: 5.0.0(@babel/plugin-syntax-flow@7.24.1)(@babel/plugin-transform-react-jsx@7.23.4)(eslint@8.57.0)(react@17.0.2)(typescript@5.4.5)
-  web-vitals:
-    specifier: ^2.1.2
-    version: 2.1.4
+importers:
+
+  .:
+    dependencies:
+      '@workshop/client':
+        specifier: workspace:client
+        version: link:client
+      express:
+        specifier: 4.19.2
+        version: 4.19.2
+
+  client:
+    dependencies:
+      '@testing-library/jest-dom':
+        specifier: ^5.16.1
+        version: 5.17.0
+      '@testing-library/react':
+        specifier: ^12.1.2
+        version: 12.1.5(react-dom@17.0.2)(react@17.0.2)
+      '@testing-library/react-hooks':
+        specifier: ^7.0.2
+        version: 7.0.2(react-dom@17.0.2)(react@17.0.2)
+      '@testing-library/user-event':
+        specifier: ^13.5.0
+        version: 13.5.0(@testing-library/dom@10.0.0)
+      axios:
+        specifier: ^0.25.0
+        version: 0.25.0
+      react:
+        specifier: ^17.0.2
+        version: 17.0.2
+      react-dom:
+        specifier: ^17.0.2
+        version: 17.0.2(react@17.0.2)
+      react-scripts:
+        specifier: 5.0.0
+        version: 5.0.0(@babel/plugin-syntax-flow@7.24.1)(@babel/plugin-transform-react-jsx@7.23.4)(eslint@8.57.0)(react@17.0.2)(typescript@5.4.5)
+      web-vitals:
+        specifier: ^2.1.2
+        version: 2.1.4
 
 packages:
 
