@@ -1,6 +1,6 @@
 {
   "name": "workshop",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
@@ -14,10 +14,16 @@
     "web-vitals": "^2.1.2"
   },
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "engines": {
+    "node": ">=20.11",
+    "npm": ">=8.0.0",
+    "pnpm": ">=8.0.0"
   },
   "eslintConfig": {
     "extends": [
