@@ -1,7 +1,7 @@
 # Getting Started with Animals
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-The Express server serves static images stored in the "images" directory and defines routes for the animals API endpoint, running on port 3000.
+An Express server serves static images stored in the "images" directory and defines routes for the animals API endpoint, running on port 3000.
 
 ## Requirements
 
@@ -10,7 +10,7 @@ The Express server serves static images stored in the "images" directory and def
 
 ## Available Scripts
 
-In the project directory, you can run:
+From the root directory you should run these commands:
 
 ### `pnpm install`
 
