@@ -1,3 +1,5 @@
+This is the client app which compliments the FE workshop Testing with RTL https://github.com/ITV/fe-workshops/blob/master/testing-with-rtl/
+
 # Getting Started with Animals
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
