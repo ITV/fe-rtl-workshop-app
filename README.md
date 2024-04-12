@@ -1,4 +1,4 @@
-This is the client app which compliments the FE workshop Testing with RTL https://github.com/ITV/fe-workshops/blob/master/testing-with-rtl/
+This is the client app which compliments the [FE workshop Testing with RTL ](https://github.com/ITV/fe-workshops/blob/master/testing-with-rtl/)
 
 # Getting Started with Animals
 
